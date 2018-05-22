@@ -10,20 +10,17 @@ function takeANumber(katzDeliLine, name) {
 //console.log(takeANumber(katzDeli, 'Joe'));
 //console.log(katzDeli);
 
-function nowServing() {
-  if (katzDeliLine.length >0) {
-  console.log(`Currently serving ${katzDeliLine[0]}.`);
-  katzDeliLine.splice(0, 1);
-  return katzDeliLine;
-  }
-  else {
-    return 'There is nobody waiting to be served!';
-  }
-
 } 
+function nowServing(katzDeliLine) {
+  if(katzDeliLine.length > 0) {
+    return `Currently serving ${katzDeliLine.shift()}.`;
+  } else {
+    return "There is nobody waiting to be served!";
+  }
+}
 
 
-function currentLine() {
+function currentLine(katzDeliLine) {
   var y = 'The line is currently: ';
   var n = 1;
   var p = katzDeliLine.length;
