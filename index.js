@@ -29,7 +29,8 @@ function currentLine(katzDeliLine) {
     y += `${n}. ${katzDeliLine[i]}, `;
     n += 1;
   }
-  return y.slice[0,y.length-1];
+  z = y.slice(0,y.length-1);
+  return z
   }
   else {
     return 'The line is currently empty.';
