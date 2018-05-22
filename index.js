@@ -10,7 +10,7 @@ function takeANumber(katzDeliLine, name) {
 //console.log(takeANumber(katzDeli, 'Joe'));
 //console.log(katzDeli);
 
-} 
+
 function nowServing(katzDeliLine) {
   if(katzDeliLine.length > 0) {
     return `Currently serving ${katzDeliLine.shift()}.`;
