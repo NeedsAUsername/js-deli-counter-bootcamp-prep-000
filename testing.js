@@ -1,4 +1,5 @@
 a = ['a','b','c']
 b = 'hello'
-console.log(b.length)
-b.slice()
+
+b.slice(0,2)
+console.log(b)
