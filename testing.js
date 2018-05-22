@@ -1,3 +1,3 @@
 a = ['a','b','c']
-
-console.log()
+b = 'hello'
+console.log(b.length)
