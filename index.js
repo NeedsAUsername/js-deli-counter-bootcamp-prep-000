@@ -26,7 +26,7 @@ function currentLine(katzDeliLine) {
   var p = katzDeliLine.length;
   if (p>0){
   for (var i = 0; i<p; i+=1) {
-    y += `${n}. ${katzDeliLine[i]} `;
+    y += `${n}. ${katzDeliLine[i]}, `;
     n += 1;
   }
   return y;
