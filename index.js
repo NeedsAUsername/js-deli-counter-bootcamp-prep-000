@@ -29,7 +29,7 @@ function currentLine(katzDeliLine) {
     y += `${n}. ${katzDeliLine[i]}, `;
     n += 1;
   }
-  z = y.slice(0,y.length-1);
+  var z = y.slice(0,y.length-1);
   return z
   }
   else {
